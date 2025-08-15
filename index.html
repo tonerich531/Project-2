@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Project</title>
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
 </head>
@@ -13,23 +14,26 @@
             <div class="row">
                 <div class="section__header">
                     <div  class="section__logo">
-                        <img src="https://dev.d24jig8s1lr7n9.amplifyapp.com/img/whitelogo.39850b27.png" class="blinker__logo" alt="">
+                        <img src="https://dev.d24jig8s1lr7n9.amplifyapp.com/img/blinker-icon.4f9b2663.png" class="blinker__logo" alt="">                    
+                        <div class="header__links">
+                            <div class="header__list">
+                                <a href="" class="header__link header__link--anchor">Home</a>
+                                <a href="" class="header__link header__link--anchor">Find your car</a>
+                                <a href="" class="header__link header__link--anchor">
+                                    <button class="btn">Contact</button>
+                                </a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="header__links">
-                        <div class="header__list">
-                            <a href="" class="header__link">Home</a>
-                            <a href="" class="header__link">Find your car</a>
-                            <a href="" class="header__link">
-                                <button class="btn">Contact</button>
-                            </a>
-                        </div>
-                        <div class="header__title--wrapper">
-                            <h1 class="header__title">Browse our cars</h1>
-                        </div>
+                    <div class="header__title--wrapper">
+                        <h1 class="header__title">Browse our cars</h1>                    
                         <div class="input__wrapper">
                             <input type="text" placeholder="Search by Make, Model or Keyword">
+                            <figure>
+                                <i class="fas fa-magnifying"></i>
+                            </figure>
                         </div>
-                    </div>
+                    </div>                   
                 </div>
             </div>
         </div>
@@ -37,7 +41,11 @@
     <section id="search">
         <div class="container">
             <div class="row">
-                
+                <div class="section__title">
+                    <h1 class="title">
+                        <span class="search__info">Search Results:</span>
+                    </h1>
+                </div>
             </div>
         </div>
     </section>
