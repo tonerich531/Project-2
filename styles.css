@@ -11,16 +11,18 @@ h1 {
     font-weight: 500px;
     font-size: 45px;
     max-width: 1000px;
+    padding: 8px 0;
        
 }
 
 input {
     width: 50%;
-    max-width: 800px;
+    max-width: 1000px;
     height: 60px;
     font-size: 20px;
     border-radius: 50px;
     padding-left: 20px;
+    
 }
 
 .container {
@@ -52,6 +54,14 @@ input {
     text-decoration: none;
 }
 
+.text__purple {
+    color: #6030b1;
+}
+
+
+
+/*    HEADER    */
+
 
 
 .section__logo {
@@ -59,7 +69,7 @@ input {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 24px 0;
+    
 }
 
 .header__list {
@@ -75,19 +85,17 @@ input {
     height: 50px;
     max-height: 100%;
     margin-left: 32px;
+    padding-top: 16px;
 }
 
 .header__list {
     display: flex;
-}
-
-
-.header__links {
-    
+    padding-top: 16px;
 }
 
 .header__link {
-    margin: 0 32px;
+    color: #fff;
+    margin: 0 24px;
 }
 
 .header__link--anchor {
@@ -102,26 +110,94 @@ input {
 
 
 .header__title {
-   margin-bottom: 40px;
-   margin-left: 80px;
+    color: #fff;
+    margin-left: 48px; 
 }
 
 
 .header__title--wrapper {
+    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
     text-align: center;
+       
     margin-top: 64px;
 }
 
 
-.input__wrapper {
-    
+.input__wrap {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 24px;   
 }
+
+.overlay {
+    background-image: url('https://dev.d24jig8s1lr7n9.amplifyapp.com/img/carpark.8742e246.jpeg');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+
+/*   SEARCH   */
 
 .search__info {
     color: #0a1f44;
     font-size: 28px;
-    margin-left: 32px;
+    margin-left: 32px;    
+}
+
+
+.cars {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 16px 8px;  
+}
+
+
+.car__img--wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 200px;    
+    height: 100px;
+    padding: 20px;
+    border: 10px solid #242424;
+}
+
+.car__title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.car__price {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 12px;
+}
+
+.car__mileage {
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+/*   LARGE PHONES AND TABLETS   */
+
+
+@media (max-width: 768px) {
+    .header__link {
+        display: none;
+    }
 }
