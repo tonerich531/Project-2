@@ -8,7 +8,7 @@
 }
 
 h1 {
-    font-weight: 500px;
+    font-weight: 500px;    
     font-size: 45px;
     max-width: 1000px;
     padding: 8px 0;
@@ -51,7 +51,7 @@ input {
 .btn:hover {
     background-color: #ff328f;
     color: #fff;
-    text-decoration: none;
+    text-decoration: none !important; 
 }
 
 .text__purple {
@@ -68,8 +68,7 @@ input {
     max-width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .header__list {
@@ -80,10 +79,8 @@ input {
 
 
 .blinker__logo {
-    width: 100px;
-    max-width: 100%;
-    height: 50px;
-    max-height: 100%;
+    width: 75px;    
+    height: 75px;    
     margin-left: 32px;
     padding-top: 16px;
 }
@@ -94,7 +91,7 @@ input {
 }
 
 .header__link {
-    color: #fff;
+    color: #ded7d7;
     margin: 0 24px;
 }
 
@@ -110,7 +107,7 @@ input {
 
 
 .header__title {
-    color: #fff;
+    color: #ded7d7;
     margin-left: 48px; 
 }
 
@@ -133,7 +130,7 @@ input {
 }
 
 .overlay {
-    background-image: url('https://dev.d24jig8s1lr7n9.amplifyapp.com/img/carpark.8742e246.jpeg');
+    background-image: url('	https://wallpapercave.com/dwp2x/wp11096634.jpg');
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: cover;
@@ -141,11 +138,24 @@ input {
     height: 50%;
     position: absolute;
     z-index: -1;
+    filter: hue-rotate(150deg);
+    
 }
 
 
 
 /*   SEARCH   */
+
+
+.search__input {
+    width: 75%;
+    max-width: 1000px;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-left: 20px;
+    margin-left: 32px;
+}
 
 .search__info {
     color: #0a1f44;
@@ -156,19 +166,16 @@ input {
 
 .cars {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    padding: 16px 8px;  
+
 }
 
 
-.car__img--wrapper {
-    display: flex;
-    flex-direction: column;
-    width: 200px;    
-    height: 100px;
-    padding: 20px;
-    border: 10px solid #242424;
+.car {
+    width: 50%;   
+    padding: 24px;
+    margin: 16px;
+    
 }
 
 .car__title {
