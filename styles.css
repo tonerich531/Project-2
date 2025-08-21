@@ -182,14 +182,41 @@ input {
 }
 
 .search__input {
-    width: 75%;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 800px;
     height: 60px;
     font-size: 20px;
     border-radius: 50px;
     padding-left: 20px;
-    margin-left: 32px;
+    
 }
+
+#magnifying__glass {
+    color: #0a1f44;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10000;
+   
+}
+
+
+.input__wrap {
+    width: 100%;
+    max-width: 100%;    
+    position: relative;   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;    
+    color: #0a1f44;
+}
+
 
 
 .search__info {
