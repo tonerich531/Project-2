@@ -37,7 +37,7 @@ input {
     width: 100%;
     max-width: 100%;
     margin: 0 auto;
-    margin-bottom: 96px;
+    margin-bottom: 64px;
 }
 
 
@@ -172,13 +172,13 @@ input {
     margin-bottom: 48px;
     display: flex;
     justify-content: space-between;
+    padding-top: 16px;
 }
 
 .search__name {
     color: #0a1f44;
     font-size: 28px;
-    margin-left: 32px;
-      
+    margin-left: 32px;      
 }
 
 .search__input {
@@ -190,6 +190,7 @@ input {
     padding-left: 20px;
     margin-left: 32px;
 }
+
 
 .search__info {
     color: #0a1f44;
