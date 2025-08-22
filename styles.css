@@ -59,18 +59,27 @@
 
 
 .btn__menu {
-    color: white;
-    width: 27px;
-    height: 27px;
-    display: flex;
+    color: #6030b1;
+    width: 35px;
+    height: 35px;
+    display: none;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: #242424;
-    position: absolute;
+    background-color: #fff;    
     font-size: 40px;
     padding: 5px;
     border: none;
     cursor: pointer;    
+}
+
+
+
+.btn__menu--close {
+     position: absolute;
+    right: 20px;
+    top: 10px;
+    padding: 8px;
+    color: white;
 }
 
 
@@ -79,16 +88,16 @@
     background-color: #242424;
     top: 0;
     left: 0;
-    height: 100vw;
-    width: 100vw;
-    z-index: 1000;
-    display: flex;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
     justify-content: center;
     align-items: center;
     display: none;
 }
 
-.menu__open .menu__backdrop {
+.menu--open .menu__backdrop {
     display: flex;
 }
 
@@ -103,20 +112,16 @@
     font-size: 32px;
     font-weight: 700;
     margin: 24px 0;
+    text-decoration: none;
+    list-style-type: none;
+    
 }
 
 .menu__list {
     padding: 32px;
-
 }
 
-.btn__menu--close {
-    position: absolute;
-    right: 20px;
-    top: 10px;
-    padding: 8px;
-    color: white;
-}
+
 
 
 
@@ -145,11 +150,7 @@
     align-items: center;   
 }
 
-.header__list {
-    
-    display: flex;
-    align-items: center;
-}
+
 
 .movie__logo {
     width: 75px;    
@@ -223,12 +224,11 @@
 #magnifying__glass {
     color: #0a1f44;
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
+    right: 20px;
+    bottom: -15px;
     font-size: 32px;
     cursor: pointer;
-    z-index: 10000;
+    
 }
 
 
@@ -369,7 +369,7 @@
 
 
 
-/*   LARGE PHONES AND TABLETS   
+/*   LARGE PHONES AND TABLETS    */
 
 
 @media (max-width: 768px) {
