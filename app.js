@@ -59,8 +59,19 @@ function sortChange(event) {
     }
 
     displayMovies(sortedMovies);
-
 }
+
+// Open and Close Menu
+
+function openMenu() {
+    document.body.classList += " menu--open";
+}
+
+function closeMenu() {
+    document.body.classList.remove("menu--open");
+}
+
+
     
 
 
