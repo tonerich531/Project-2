@@ -61,7 +61,7 @@ function sortChange(event) {
     displayMovies(sortedMovies);
 }
 
-// Open and Close Menu
+/*    Open and Close Menu    */
 
 function openMenu() {
     document.body.classList += " menu--open";
