@@ -187,6 +187,7 @@ li {
     display: flex;
     align-items: center;
     padding-top: 16px;
+    margin: 32px;
 }
 
 .header__link {
@@ -424,7 +425,35 @@ li {
         font-size: 32px;
         padding-left: 48px;
     }
+
+    .search__input {
+    position: absolute;
+    width: 100%;
+    max-width: 650px;
+    height: 50px;   
+    font-size: 20px;
+    border-radius: 500px;
+    padding: 0 20px 0 8px
+}
 }
 
 
+@media (max-width: 576px) {
+    .header__title {
+        font-size: 24px;
+        padding-left: 48px;
+    }
 
+      .search__input {
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    }
+
+    .header__title {
+        font-size: 28px;
+        font-weight: 700;
+        padding-left: 48px;
+    }
+
+}
