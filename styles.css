@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+#menu:hover {    
+    color: #8b1915;
+}
+
+
 li {
     list-style-type: none;
 }
@@ -25,7 +30,8 @@ li {
 
 
 .btn {
-    color: #6030b1;
+    color: #bee514;
+    background-color: #800703;
     display: flex;
     cursor: pointer;
     max-height: 48px;
@@ -40,13 +46,13 @@ li {
 }
 
 .btn:hover {
-    background-color: #8a1147;
-    color: #fff;
+    background-color: #09761b;
+    color: #861612;
     text-decoration: none !important; 
 }
 
-.text__purple {
-    color: #6030b1;
+.text__red {
+    color: #9b1111;
 }
 
 
@@ -63,7 +69,8 @@ li {
 
 
 .btn__menu {
-    color: #6030b1;
+    background-color: transparent;
+    color: #d7ee09;
     width: 35px;
     height: 35px;    
     flex-wrap: wrap;
@@ -79,7 +86,10 @@ li {
 
 
 .btn__menu--close {
-    
+    position: absolute;
+    background-color: transparent;
+    color: #fff;
+    font-size: 32px;    
     right: 20px;
     top: 10px;
     padding: 8px;
@@ -175,13 +185,19 @@ li {
 
 .header__list {
     display: flex;
+    align-items: center;
     padding-top: 16px;
 }
 
 .header__link {
-    color: #0a1f44;
+    color: #e0ef0d;
     font-weight: 700;
     margin: 0 24px;
+}
+
+
+.header__link:hover {
+    color: #800703;
 }
 
 .header__link--anchor {
@@ -196,7 +212,7 @@ li {
 
 
 .header__title {
-    color: #0a1f44;
+    color: #a6280f;
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 40px;   
@@ -236,7 +252,7 @@ li {
 
 
 #magnifying__glass {
-    color: #0a1f44;
+    color: #700a49;
     position: absolute;
     right: 20px;
     bottom: -15px;
@@ -294,22 +310,22 @@ li {
 }
 
 .search__name {
-    color: #0a1f44;
+    color: #7f0e0e;
     font-size: 28px;
     margin-left: 32px;      
 }
 
 
 .search__info {
-    color: #0a1f44;
+    color: #850909;
     font-size: 28px;
     margin-left: 32px;    
 }
 
 
 #movieSort {
-    color: #0a1f44;
-    background-color: aqua;
+    color: #148206;
+    background-color: rgb(138, 11, 11);
     height: 40px;
     width: 140px;
     border-radius: 50px;
