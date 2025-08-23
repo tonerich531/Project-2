@@ -67,10 +67,9 @@ li {
     width: 35px;
     height: 35px;    
     flex-wrap: wrap;
-    justify-content: space-between;
-    background-color: #fff;    
+    justify-content: space-between;        
     font-size: 40px;
-    padding: 5px;
+    padding-right: 24px;
     border: none;
     cursor: pointer;
     visibility: visible;
@@ -80,11 +79,11 @@ li {
 
 
 .btn__menu--close {
-    position: absolute;
+    
     right: 20px;
     top: 10px;
     padding: 8px;
-    color: white;
+    
 }
 
 
@@ -95,7 +94,7 @@ li {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 100;
+    z-index: 10;
     display: flex;    
     justify-content: center;
     align-items: center;
